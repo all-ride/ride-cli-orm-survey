@@ -1,0 +1,23 @@
+{
+    "name": "ride/cli-orm-survey",
+    "description": "Survey commands for the Ride CLI",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app-orm-survey": ">=0.5.0",
+        "ride/cli": ">=0.5.0",
+        "ride/lib-orm": ">=0.3.0",
+        "ride/lib-system": ">=0.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\cli\\command\\orm\\": ["src/"]
+        }
+    }
+}

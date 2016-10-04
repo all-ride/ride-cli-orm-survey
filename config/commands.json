@@ -1,0 +1,9 @@
+{
+    "commands": [
+        {
+            "name": "survey evaluation calculate average",
+            "aliases": "seca",
+            "class": "ride\\cli\\command\\orm\\SurveyEvaluationCalculateAverageCommand"
+        }
+    ]
+}
